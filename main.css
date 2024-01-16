@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #2b042e 0%, #b4cdf0 100%);
+}
+.main {
+    width: 80vw;
+    background-image: linear-gradient(120deg, #b0c6e9 0%, #93dafb 100%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container > h1 {
+    font-size: 30px;
+}
+
+.container > input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.container > button {
+    padding: 5px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(203, 56, 7);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.container > button:hover {
+    background-color: rgb(90, 6, 90);
+}
+
+#barcode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#barcode > svg {
+    margin: 20px;
+}
+
+#barcode > button {
+    padding: 5px;
+    font-size: 15px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(8, 103, 22);
+    color: rgb(255, 255, 255);
+    cursor: pointer; 
+}
+
+#barcode > button:hover {
+    background-color: rgb(80, 222, 130);
+}

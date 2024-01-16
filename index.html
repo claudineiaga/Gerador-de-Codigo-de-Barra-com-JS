@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador de Código de Barra</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Biblioteca de Código de Barra -->
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+ 
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Gerador de Código de Barras</h1>
+            <input id="barcodeValue" type="text" placeholder="Digite o Valor para o código...">
+            <button id="generateBarcode" onclick="generateBarcode()">Gerar</button>
+            <div id="barcode"></div>
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+</body>
+</html>
